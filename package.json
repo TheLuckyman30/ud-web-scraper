@@ -1,0 +1,18 @@
+{
+  "name": "ud-web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "dev": "tsx main.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/objects-to-csv": "^1.3.3",
+    "cheerio": "^1.2.0",
+    "objects-to-csv": "^1.3.6",
+    "puppeteer": "^24.37.5",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
