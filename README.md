@@ -13,6 +13,12 @@ A scraper that extracts university resource information from **MyUD** and export
   - Resource link
 - Exports data into a CSV format
 
+## Technologies Used
+- Node.js
+- Typescript
+- Cheerio
+- Puppeteer
+
 ## Installation
 Clone the repository:
 
