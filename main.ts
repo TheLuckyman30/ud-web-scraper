@@ -23,15 +23,6 @@ async function main() {
     output: process.stdout,
   });
 
-  // const categories = await findCats(page);
-  // const names = await Promise.all(
-  //   categories.map((cat) =>
-  //     cat.evaluate((el) => el.textContent.trimStart().trimEnd()),
-  //   ),
-  // );
-  // console.log("These are the available categories.");
-  // console.log(names);
-
   const allResources: Resource[][] = [];
   let exit = false;
   while (!exit) {
